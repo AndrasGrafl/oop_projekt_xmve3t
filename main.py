@@ -1,5 +1,7 @@
 from FoglalasiRendszer import FoglalasiRendszer
+from FelhasznaloiFelulet import FelhasznaloiFelulet
 
 if __name__ == "__main__":
     rendszer = FoglalasiRendszer()
-    rendszer.user_interact()
+    felulet = FelhasznaloiFelulet(rendszer)
+    felulet.user_interact()
